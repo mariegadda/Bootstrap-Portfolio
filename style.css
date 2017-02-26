@@ -20,14 +20,31 @@ body {
   height: 60px;
 }
 footer{padding: 5px;}
-
+  
+/* styling for photo on home page */
 #me{
   margin: 0 10px 2px 0;
   border-radius: 5%;}
 
 img{ padding: 5px 5px 5px}
 
+/* captions of portfolio images */
+figure{position: relative;}
 
+figcaption{ 
+      background:#4aaaa5;
+      width: 291px;
+      position: absolute;
+      left: 4px;
+      bottom: 30px;
+      padding: 10px 0 10px 0;
+      text-align: center;
+      font-size: 20px;
+      font-family: 'Georgia', Times, Times New Roman, serif;
+      color: white;
+      } 
+
+.red{width: 300px;}
 
 
 
